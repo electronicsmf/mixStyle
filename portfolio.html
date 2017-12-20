@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Portfolio Area</title>
+	 <style>
+	       *{
+		    margin:0;
+			padding:0;
+		   
+		   }
+	       body{
+		       margin:0;
+			   padding:0;
+		   
+		   }
+	       header{
+		        background-color:red;
+		        width:100%;
+		        height:100%;
+		   }
+		   nav{
+		      float:right;
+			  padding:25px 20px 0 0;
+		   }
+		   ul{
+		     list-style-type:none;
+			 overflow:hidden;
+		   }
+		   li{
+		      float:left;
+		      display:inline;
+			  font-size:150%;
+	          padding:10px;	   
+		   }
+		   li a{
+		      text-decoration:none;
+			  color:#f5f5f5;
+		   }
+		   .break{
+		      clear:both;
+		   }
+	        .container{
+			    width:100%;
+				height:600px;
+				text-align:center;
+				background:url('mobile-img/home-slider-1-slide-3.jpg')no-repeat 50%;
+				position:center;
+			}
+			.inner-container h2{
+			    font-family: 'Alegreya Sans', san-serif;
+				font-size:250%;
+			}
+			hr{
+			  margin:0 auto;
+			  width:15%;
+			
+			}
+			.photos{
+			    background-color:blue;
+			    width:100%;
+			    height:350px;
+			}
+			.row-1 img{
+			     float:left;
+			     width:31%;
+				 padding:1%;
+			
+			}
+			
+			footer{
+			    text-align:center;
+				font-family:times-roman;
+				background-color:black;
+			    color:white;
+				padding:20px;
+			}
+			@media(max-width:796px){
+			    .container{
+				   width:auto;
+				   height:690px;
+				}
+				
+				.photos{
+				   width:auto;
+				   height:auto;
+				
+				}
+				.row-1 img{
+				   float:none;
+				   width:96%;
+				   padding:2%;
+				}
+				img{
+				  width:96%;
+				}
+				footer{
+				   width:auto;
+				   height:auto;
+				}
+				footer p{
+				  font-size:150%;
+				  overflow:hidden;
+				  float:none; 
+				   
+				}
+			
+			}	
+	</style>
+</head>
+<body>
+     <header>
+	         <nav>
+	             <ul>
+	                <li><a href="">Home</a></li>
+					<li><a href="">Skills</a></li>
+					<li><a href="">Portfolio</a></li>
+					<li><a href="">Our Team</a></li>
+					<li><a href="">Contact</a></li>
+				  </ul>
+	         </nav>
+	 </header>
+	 <div class="break"></div>
+     <div class="container">
+	      <div class="inner-container">
+	           <h2>Welcome to my page</h2>
+			   <hr>
+          </div>
+    </div>
+	<div class="photos">
+	     <div class="inner-photos">
+	          <div class="row-1">
+	               <img src="mobile-img/gallery-grid-1.jpg"/>
+			 </div>   
+			 <div class="row-1">
+	               <img src="mobile-img/gallery-grid-1.jpg"/>
+			 </div>
+			 <div class="row-1">
+	               <img src="mobile-img/gallery-grid-1.jpg"/>
+			 </div>
+         </div>
+    </div>
+	<footer>
+	       <p>&copy rights,Power by UxDesign</p>
+	</footer>
+</body>
+</html>
